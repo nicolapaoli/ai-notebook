@@ -1,0 +1,1 @@
+docker build -t nicolapaoli/ai-notebook .
