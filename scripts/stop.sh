@@ -1,0 +1,1 @@
+docker stop ai-notebook && docker rm ai-notebook

@@ -1,0 +1,1 @@
+docker run -v ${PWD}:/ai -it -p 8888:8888 --name ai-notebook nicolapaoli/ai-notebook
