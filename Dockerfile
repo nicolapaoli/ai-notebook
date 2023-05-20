@@ -1,7 +1,7 @@
 FROM python
 
 #Install graphviz
-RUN apt update -y && apt install libiconv graphviz python-graphviz pango  -y
+RUN apt-get update -y && apt-get install graphviz  -y
 
 COPY . /ai
 WORKDIR /ai
