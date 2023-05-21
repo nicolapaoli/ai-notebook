@@ -25,4 +25,6 @@ Stop the container
 
 ## Some libs used
 
-- [Graphviz](https://graphviz.org/) - To create diagrams
+- [Graphviz](https://graphviz.org/)
+- [PyTorch](https://pytorch.org/)
+- [Scikit-Learn](https://scikit-learn.org/stable/)
