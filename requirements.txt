@@ -3,3 +3,5 @@ numpy
 matplotlib
 graphviz
 torch
+micrograd
+scikit-learn
