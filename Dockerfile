@@ -1,4 +1,4 @@
-FROM python
+FROM python:3.10
 
 #Install graphviz
 RUN apt-get update -y && apt-get install graphviz  -y

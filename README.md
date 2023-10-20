@@ -10,17 +10,17 @@ A local env with jupyter notebook is provided.
 Make sure to have `docker` installed and running in your 
 Build the docker image by running:
 ```bash
-./scripts/setup.sh
+make build
 ```
 
 Deploy the jupyter notebook
 ```bash
-./scripts/start.sh
+make start
 ```
 
 Stop the container
 ```bash
-./scripts/stop.sh
+make stop
 ```
 
 ## Some libs used
@@ -28,3 +28,4 @@ Stop the container
 - [Graphviz](https://graphviz.org/)
 - [PyTorch](https://pytorch.org/)
 - [Scikit-Learn](https://scikit-learn.org/stable/)
+- [Transformers](https://huggingface.co/docs/transformers/installation)
